@@ -353,12 +353,11 @@ body {
   width: 100vw;
   min-height: 100vh;
   height: 100vh;
-}
-body {
   -webkit-animation: pulsate 25s linear infinite;
   -moz-animation: pulsate 25s linear infinite;
   animation: pulsate 25s linear infinite;
 }
+
 
 @-webkit-keyframes pulsate {
   0% {background: $color-accent}
@@ -387,6 +386,438 @@ body {
   83.333333% {background: $color-accent_light}
   100% {background: $color-accent}
 }
+
+
+.site-header{
+  
+  
+}
+
+.site-header-logo{
+  &-col{}
+  
+  
+  &__link{}
+  &__img{}
+}
+
+.site-header-menu{
+  &-col{}
+  
+  &__item{}
+  &__link{}
+  
+}
+
+.site-header-mobile-menu-container{}
+.site-header-mobile-menu-toggle{
+  &-wrapper{}
+  
+  
+  &__line{
+    
+    
+    &_first{}
+    &_second{}
+    &_third{}
+  }
+}
+.site-header-mobile-menu{
+  &-wrapper{}
+  
+  &__item{}
+  &__link{
+    
+  }
+}
+
+.site-footer{
+  
+}
+
+.site-footer-social{
+  &-col{
+  }
+}
+
+.site-footer-social-list{
+
+  &__item {
+  }
+  &__link {
+    &:hover{
+    }
+  }
+}
+
+.footer-portfolio-link {
+  &-col{
+  }
+
+  &:hover{
+  }
+}
+
+
+
+
+.fsvs-pagination-list{
+  &__item{
+  }
+  &__square {
+    &_outer{
+    }
+    &_inner{
+    }
+  }
+}  
+.fsvs-body {
+
+  &-slide{
+    &__inner{
+
+    }
+    &__section-header{}
+  }
+}
+
+
+  .home {
+    &-slide{
+    }
+
+  }
+.home-aside {
+  &_left{
+  }
+  &_right{
+  }
+  &__img {
+    &_left{
+    }
+    &_right{
+    }
+  }
+}
+.home-header {
+  &__caption {
+    &_first{
+    }
+    &_second{
+    }
+    &_third{
+    }
+  }
+}
+  
+  .home-product {
+    
+    &__img {
+    }
+  }
+  
+  .home-scroll-down {
+    
+    &__icon {
+    }
+  }
+  
+  
+  
+  .features {
+    &-slide{
+    }
+    
+    
+    &__section-header {
+    }
+    &__main-text {
+    }
+  }
+  .features-aside {
+    &_left{
+    }
+    &__img {
+      &_left{
+      }
+    }
+  }
+  .features-article {
+    &-wrapper {
+    }
+    &__header {
+    }
+    &__text {
+    }
+  }
+  .features-product {
+  &__img {
+  }
+  }
+  .our-team {
+    &-slide{
+    }
+    
+    &__section-header {
+      
+    }
+  }
+  .our-team-aside {
+    &_left{
+    }
+    &__img {
+      &_left{
+      }
+  }
+  }
+  .our-team-carousel{
+    &__inner{
+    }
+    &__item{
+      
+      &.active{
+      }
+      &_owl-carousel{}
+      &_show-all{
+      }
+    }
+    }
+  
+  .our-team-owl-carousel{
+    }
+  
+.our-team-owl-carousel-item {
+  &-wrapper{}
+  
+  
+  &__name {
+  }
+  &__position {
+  }
+  &__description {
+  }
+  &__photo {
+  }
+  &__photo-img {
+  }
+
+}                            
+  .our-team-show-all {
+    &__item {
+    }
+    &__link {
+      &:hover{
+      }
+    }
+    &__img {
+    }
+    &__name {
+    }
+  }
+  
+  .our-team-toggle {
+  &__link {
+    &:hover{
+    }
+  }
+  }
+  .partners {
+    &-slide{
+    }
+    &__section-header{
+      }
+    
+    .partners-aside {
+      &_right{
+      }
+      &__img {
+        &_right{
+        }
+      }
+    }
+    &__logo-img {
+    }
+  }
+  .partners-request {
+
+    &__link {
+      &:hover{
+      }
+    }
+  }
+  .advertisement{
+    &-slide{
+    }
+    &__section-header{
+    }
+    }
+    .partners-aside {
+      &_right{
+      }
+      &__img {
+        &_right{
+        }
+      }
+    }
+  
+  .advertisement-video {
+  }
+  .advertisement-email-notify {
+
+    &__link {
+      &:hover{
+      }
+    }
+  }
+  .opinion {
+    &-slide{
+    }
+    &__section-header{
+      }
+    
+  }
+  .opinion-aside {
+    &_right{
+    }
+    &__img {
+      &_right{
+      }
+    }
+  }
+  /*?*/
+  .img-list {
+    li {
+    }
+    a {
+      &:hover{
+      }
+    }
+    img {
+    }
+    span {
+    }
+  }
+  .text-content {
+    span {
+    }
+  }
+  .opinion-request {
+
+    &__link {
+      &:hover{
+      }
+    }
+  }
+  .location {
+
+    &__header {
+    }
+    &__address {
+    }
+  }
+  .location-aside {
+    &_right{
+    }
+  &__img {
+    &_right{
+    }
+  }
+  }
+
+.modal{
+
+  &-wrapper {
+    &_partners {
+    }
+    &_advertisement{
+    }
+    &_opinion{
+    }
+  }
+  &.fade{
+  }
+
+  
+}
+.modal-dialog {
+  &_partners{
+  }
+  &_advertisement{
+  }
+  &_opinion{
+  }
+}
+.modal-content {
+  &_partners{
+  }
+  &_advertisement{
+  }
+  &_opinion{
+  }
+}
+  
+  
+  .modal-header {
+    &_partners{
+    }
+    &_advertisement{
+    }
+    &_opinion{
+    }
+  }
+.modal-header-close{
+  &_partners{
+  }
+  &_advertisement{
+  }
+  &_opinion{
+  }
+}
+
+  .modal-body {
+    &_partners{
+    }
+    &_advertisement{
+    }
+    &_opinion{
+    }
+  }
+  .modal-form {
+    &_partners{
+    }
+    &_advertisement{
+    }
+    &_opinion{
+    }
+    &__input-group{
+      &_partners{
+      }
+      &_advertisement{
+      }
+      &_opinion{
+      }
+      &__form-control_partners{
+        &_partners{
+        }
+        &_advertisement{
+        }
+        &_opinion{
+        }
+      }
+    }
+  &__btn{
+    &_partners{
+    }
+    &_advertisement{
+    }
+    &_opinion{
+    }
+  }
+    
+    
+  }
+
+
 
 
 .top-header {

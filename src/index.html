@@ -26,427 +26,409 @@
 <app-root></app-root>
 
   
-  <div class="top-header">
-    <div class="col-xs-4 col-sm-4 col-md-4 logo">
-        <a href="/"><!--<img src="../assets/img/logo.svg" alt="">-->UpMaker startup svg logo</a>
+  <header class="site-header">
+    <div class="col-xs-4 col-sm-4 col-md-4 site-header-logo-col">
+        <div class="site-header-logo">
+        <a class="site-header-logo__link" href="/"><!--<img class="site-header-logo__img" src="../assets/img/logo.svg" alt="UpMaker startup svg logo">-->UpMaker startup svg logo</a>
+          </div>
     </div>
-    <div class="col-xs-8 col-sm-8 col-md-8 header-menu">
-        <ul class="list-inline">
-            <li><a href="#features">Features</a></li>
-            <li><a href="#our-team">Our team</a></li>
-            <li><a href="#partners">Partners</a></li>
-            <li><a href="#advertisement">Advertisement</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#location">Location</a></li>
+    <div class="col-xs-8 col-sm-8 col-md-8 site-header-menu-col">
+        <ul class="list-inline site-header-menu">
+            <li class="site-header-menu__item"><a class="site-header-menu__link" href="#features">Features</a></li>
+            <li class="site-header-menu__item"><a class="site-header-menu__link" href="#our-team">Our team</a></li>
+            <li class="site-header-menu__item"><a class="site-header-menu__link" href="#partners">Partners</a></li>
+            <li class="site-header-menu__item"><a class="site-header-menu__link" href="#advertisement">Advertisement</a></li>
+            <li class="site-header-menu__item"><a class="site-header-menu__link" href="#opinion">opinion</a></li>
+            <li class="site-header-menu__item"><a class="site-header-menu__link" href="#location">Location</a></li>
         </ul>
-        <nav class="mobile-menu">
-            <button>
-                <p id="nav-icon">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </p>
-            </button>
-            <div>
-                <ul class="list-unstyled">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#our-team">Our team</a></li>
-                    <li><a href="#partners">Partners</a></li>
-                    <li><a href="#advertisement">Advertisement</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#location">Location</a></li>
+        <nav class="site-header-mobile-menu-container">
+            <div class="site-header-mobile-menu-toggle-wrapper">
+                <div id="nav-icon" class="site-header-mobile-menu-toggle">
+                    <span class="site-header-mobile-menu-toggle__line site-header-mobile-menu-toggle__line_first"></span>
+                    <span class="site-header-mobile-menu-toggle__line site-header-mobile-menu-toggle__line_second"></span>
+                    <span class="site-header-mobile-menu-toggle__line site-header-mobile-menu-toggle__line_third"></span>
+                </div>
+            </div>
+            <div class="site-header-mobile-menu-wrapper">
+                <ul class="list-unstyled site-header-mobile-menu">
+                    <li class="site-header-mobile-menu__item"><a class="site-header-mobile-menu__link" href="#home">Home</a></li>
+                    <li class="site-header-mobile-menu__item"><a class="site-header-mobile-menu__link" href="#features">Features</a></li>
+                    <li class="site-header-mobile-menu__item"><a class="site-header-mobile-menu__link" href="#our-team">Our team</a></li>
+                    <li class="site-header-mobile-menu__item"><a class="site-header-mobile-menu__link" href="#partners">Partners</a></li>
+                    <li class="site-header-mobile-menu__item"><a class="site-header-mobile-menu__link" href="#advertisement">Advertisement</a></li>
+                    <li class="site-header-mobile-menu__item"><a class="site-header-mobile-menu__link" href="#opinion">opinion</a></li>
+                    <li class="site-header-mobile-menu__item"><a class="site-header-mobile-menu__link" href="#location">Location</a></li>
                 </ul>
             </div>
         </nav>
     </div>
-</div>
-<div class="bottom-footer">
-    <div class="col-xs-4 col-sm-4 col-md-4 social-href">
-        <ul class="list-inline">
-            <li><a href="">facebook</a></li>
-            <li><a href="">instagramm</a></li>
-            <li><a href="">vk</a></li>
-            <li><a href="">twitter</a></li>
-            <li><a href="">linkedin</a></li>
+</header>
+<footer class="site-footer">
+    <div class="col-xs-4 col-sm-4 col-md-4 social-href site-footer-social-col">
+      <div class="site-footer-social">
+        <ul class="list-inline site-footer-social-list">
+            <li class="site-footer-social-list__item"><a class="site-footer-social-list__link" href="/">facebook</a></li>
+            <li class="site-footer-social-list__item"><a class="site-footer-social-list__link" href="/">instagramm</a></li>
+            <li class="site-footer-social-list__item"><a class="site-footer-social-list__link" href="/">vk</a></li>
+            <li class="site-footer-social-list__item"><a class="site-footer-social-list__link" href="/">twitter</a></li>
+            <li class="site-footer-social-list__item"><a class="site-footer-social-list__link" href="/">linkedin</a></li>
         </ul>
+        </div>
     </div>
-    <div class="col-xs-8 col-sm-8 col-md-8 portfolio-label">
-        <a href="/">Back to portfolio homepage</a>
+    <div class="col-xs-8 col-sm-8 col-md-8 portfolio-label footer-portfolio-link-col">
+        <a class="footer-portfolio-link" href="/">Back to portfolio homepage</a>
     </div>
-</div>
-<ul id="fsvs-pagination">
-    <li class="pagination-link"><span><span></span></span>
+</footer>
+<ul id="fsvs-pagination" class="fsvs-pagination-list">
+    <li class="pagination-link fsvs-pagination-list__item"><span class="fsvs-pagination-list__square fsvs-pagination-list__square_outer"><span class="fsvs-pagination-list__square fsvs-pagination-list__square_inner"></span></span>
     </li>
-    <li class="pagination-link"><span><span></span></span>
+    <li class="pagination-link fsvs-pagination-list__item"><span class="fsvs-pagination-list__square fsvs-pagination-list__square_outer"><span class="fsvs-pagination-list__square fsvs-pagination-list__square_inner"></span></span>
     </li>
-    <li class="pagination-link"><span><span></span></span>
+    <li class="pagination-link fsvs-pagination-list__item"><span class="fsvs-pagination-list__square fsvs-pagination-list__square_outer"><span class="fsvs-pagination-list__square fsvs-pagination-list__square_inner"></span></span>
     </li>
-    <li class="pagination-link"><span><span></span></span>
+    <li class="pagination-link fsvs-pagination-list__item"><span class="fsvs-pagination-list__square fsvs-pagination-list__square_outer"><span class="fsvs-pagination-list__square fsvs-pagination-list__square_inner"></span></span>
     </li>
-    <li class="pagination-link"><span><span></span></span>
+    <li class="pagination-link fsvs-pagination-list__item"><span class="fsvs-pagination-list__square fsvs-pagination-list__square_outer"><span class="fsvs-pagination-list__square fsvs-pagination-list__square_inner"></span></span>
     </li>
-    <li class="pagination-link"><span><span></span></span>
+    <li class="pagination-link fsvs-pagination-list__item"><span class="fsvs-pagination-list__square fsvs-pagination-list__square_outer"><span class="fsvs-pagination-list__square fsvs-pagination-list__square_inner"></span></span>
     </li>
-    <li class="pagination-link"><span><span></span></span>
+    <li class="pagination-link fsvs-pagination-list__item"><span class="fsvs-pagination-list__square fsvs-pagination-list__square_outer"><span class="fsvs-pagination-list__square fsvs-pagination-list__square_inner"></span></span>
     </li>
 </ul>
-<div id="fsvs-body" class="fsb">
-    <div class="slide" id="home">
-        <div class="home-clipping-mask">
-            <div class="inner-section">
-                <div class="home-dots"></div>
-                <div class="home-logo">
-                    <div class="home-logo__first-line">First caption line</div>
-                    <div class="home-logo__first-line accent">Second line with accent</div>
-                    <div class="home-logo__first-line accent">Third line</div>
+<div id="fsvs-body" class="fsb fsvs-body">
+    <section class="slide fsvs-body-slide home-slide" id="home">
+            <div class="fsvs-body-slide__inner home">
+                <div class="home-aside home-aside_left">
+                  <img src="/" alt="" class="home-aside__img home-aside__img_left">
                 </div>
-                <div class="home-product-img">
-                    <img src="" alt="product-img" class="product-img">
+                <header class="home-header">
+                    <div class="home-header__caption home-header__caption_first">First caption line</div>
+                    <div class="home-header__caption home-header__caption_second">Second line with accent</div>
+                    <div class="home-header__caption home-header__caption_third">Third line</div>
+                </header>
+                <div class="home-product">
+                    <img src="" alt="Product image" class="home-product__img">
                 </div>
                 
                  <div class="home-scroll-down">
                      Lear more(with animated mouse wheel)
+                   <img src="/" alt="" class="home-scroll-down__icon">
                  </div>
-                <div class="right-waves"></div>
-            </div>
-        </div>
-    </div>
-    <div class="slide" id="features">
-        <div class="inner-section">
-            <div class="section-header">Features</div>
-            <div class="text-features">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque dicta dolorem, doloribus dolorum excepturi ipsa labore molestiae, nam nostrum rem saepe similique sint tenetur vitae! Debitis ex id voluptatem?</div>
-            <div class="ideas-features">
-                <div>
-                    <h3>Caption</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque dicta dolorem, doloribus dolorum excepturi ipsa</p>
-                </div>
-
-                <div>
-                    <h3>Caption</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque dicta dolorem, doloribus dolorum excepturi ipsa</p>
-                </div>
-
-                <div>
-                    <h3>Caption</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque dicta dolorem, doloribus dolorum excepturi ipsa</p>
+              <div class="home-aside home-aside_right">
+                  <img src="/" alt="" class="home-aside__img home-aside__img_right">
                 </div>
             </div>
-            <div class="left-waves"></div>
-            <div class="quote-features">
+    </section>
+    <main class="slide fsvs-body-slide features-slide" id="features">
+        <div class="fsvs-body-slide__inner features">
+            <header class="fsvs-body-slide__section-header features__section-header">Features</header>
+          <div class="features-aside features-aside_left">
+                  <img src="/" alt="" class="features-aside__img features-aside__img_left">
+                </div>
+            <div class="features__main-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque dicta dolorem, doloribus dolorum excepturi ipsa labore molestiae, nam nostrum rem saepe similique sint tenetur vitae! Debitis ex id voluptatem?</div>
+            <div class="features-article-wrapper">
+                <article class="features-article">
+                    <header class="features-article__header">Article header</header>
+                    <p class="features-article__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque dicta dolorem, doloribus dolorum excepturi ipsa</p>
+                </article>
+                <article class="features-article">
+                    <header class="features-article__header">Article header</header>
+                    <p class="features-article__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque dicta dolorem, doloribus dolorum excepturi ipsa</p>
+                </article>
+              <article class="features-article">
+                    <header class="features-article__header">Article header</header>
+                    <p class="features-article__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque dicta dolorem, doloribus dolorum excepturi ipsa</p>
+                </article>
+                
+
+            </div>
+          
+            <div class="features-product">
                 360 degree animated product image
-                </div>
+              <img src="/" alt="" class="features-product__img">
+            </div>
         </div>
-    </div>
-    <div class="slide" id="our-team">
-        <div class="inner-section">
-            <div class="section-header">Our team</div>
-            <div class="our-team-dots"></div>
-            <div id="our-team-carousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="item active our-team-item-main">
-                        <div id="our-team-item-main" class="owl-carousel owl-theme">
-                            <div class="item">
-                                <div class="our-team-about">
-                                    <div class="our-team-name">Lorem Ipsum
+    </main>
+    <section class="slide fsvs-body-slide our-team-slide" id="our-team">
+        <div class="fsvs-body-slide__inner our-team">
+            <header class="fsvs-body-slide__section-header our-team__section-header">Our team</header>
+          <div class="our-team-aside our-team-aside_left">
+                  <img src="/" alt="" class="our-team-aside__img our-team-aside__img_left">
+                </div>
+            <div id="our-team-carousel" class="carousel slide our-team-carousel" data-ride="carousel">
+                <div class="carousel-inner our-team-carousel__inner">
+                  <div class="item active our-team-carousel__item our-team-carousel__item_owl-carousel">
+                        <div id="our-team-item-main" class="owl-carousel owl-theme our-team-owl-carousel">
+                            <div class="item our-team-owl-carousel-item-wrapper">
+                                <div class="our-team-owl-carousel-item">
+                                    <div class="our-team-owl-carousel-item__name">Lorem Ipsum
                                     </div>
-                                    <div class="our-team-description">
-                                        <p>Russia, Main Designer</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsam iste laborum necessitatibus odio officia quis suscipit temporibus. Adipisci aliquam asperiores eligendi facere harum incidunt laborum quaerat recusandae tenetur velit.</p>
-                                    </div>
-                                </div>
-                                <div class="our-team-image"><img src="../assets/img/our-team-carousel-img-1.png" alt=""></div>
-                            </div>
-                            <div class="item">
-                                <div class="our-team-about">
-                                    <div class="our-team-name">Lorem Ipsum
-                                    </div>
-                                    <div class="our-team-description">
-                                        <p>Russia, Main Designer</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsam iste laborum necessitatibus odio officia quis suscipit temporibus. Adipisci aliquam asperiores eligendi facere harum incidunt laborum quaerat recusandae tenetur velit.</p>
+                                    <div class="our-team-owl-carousel-item__position">
+                                       Russia, Main Designer</div>
+                                  <div class="our-team-owl-carousel-item__description">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsam iste laborum necessitatibus odio officia quis suscipit temporibus. Adipisci aliquam asperiores eligendi facere harum incidunt laborum quaerat recusandae tenetur velit.
                                     </div>
                                 </div>
-                                <div class="our-team-image"><img src="../assets/img/our-team-carousel-img-1.png" alt=""></div>
+                                <div class="our-team-owl-carousel-item__photo"><img class="our-team-owl-carousel-item__photo-img" src="../assets/img/our-team-carousel-img-1.png" alt=""></div>
                             </div>
-                            <div class="item">
-                                <div class="our-team-about">
-                                    <div class="our-team-name">Lorem Ipsum
+                            <div class="item our-team-owl-carousel-item-wrapper">
+                                <div class="our-team-owl-carousel-item">
+                                    <div class="our-team-owl-carousel-item__name">Lorem Ipsum
                                     </div>
-                                    <div class="our-team-description">
-                                        <p>Russia, Main Designer</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsam iste laborum necessitatibus odio officia quis suscipit temporibus. Adipisci aliquam asperiores eligendi facere harum incidunt laborum quaerat recusandae tenetur velit.</p>
+                                    <div class="our-team-owl-carousel-item__position">
+                                       Russia, Main Designer</div>
+                                  <div class="our-team-owl-carousel-item__description">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsam iste laborum necessitatibus odio officia quis suscipit temporibus. Adipisci aliquam asperiores eligendi facere harum incidunt laborum quaerat recusandae tenetur velit.
                                     </div>
                                 </div>
-                                <div class="our-team-image"><img src="../assets/img/our-team-carousel-img-1.png" alt=""></div>
+                                <div class="our-team-owl-carousel-item__photo"><img class="our-team-owl-carousel-item__photo-img" src="../assets/img/our-team-carousel-img-1.png" alt=""></div>
                             </div>
-                            <div class="item">
-                                <div class="our-team-about">
-                                    <div class="our-team-name">Lorem Ipsum
+                          <div class="item our-team-owl-carousel-item-wrapper">
+                                <div class="our-team-owl-carousel-item">
+                                    <div class="our-team-owl-carousel-item__name">Lorem Ipsum
                                     </div>
-                                    <div class="our-team-description">
-                                        <p>Russia, Main Designer</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsam iste laborum necessitatibus odio officia quis suscipit temporibus. Adipisci aliquam asperiores eligendi facere harum incidunt laborum quaerat recusandae tenetur velit.</p>
+                                    <div class="our-team-owl-carousel-item__position">
+                                       Russia, Main Designer</div>
+                                  <div class="our-team-owl-carousel-item__description">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsam iste laborum necessitatibus odio officia quis suscipit temporibus. Adipisci aliquam asperiores eligendi facere harum incidunt laborum quaerat recusandae tenetur velit.
                                     </div>
                                 </div>
-                                <div class="our-team-image"><img src="../assets/img/our-team-carousel-img-1.png" alt=""></div>
+                                <div class="our-team-owl-carousel-item__photo"><img class="our-team-owl-carousel-item__photo-img" src="../assets/img/our-team-carousel-img-1.png" alt=""></div>
                             </div>
-                            <div class="item">
-                                <div class="our-team-about">
-                                    <div class="our-team-name">Lorem Ipsum
+                          <div class="item our-team-owl-carousel-item-wrapper">
+                                <div class="our-team-owl-carousel-item">
+                                    <div class="our-team-owl-carousel-item__name">Lorem Ipsum
                                     </div>
-                                    <div class="our-team-description">
-                                        <p>Russia, Main Designer</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsam iste laborum necessitatibus odio officia quis suscipit temporibus. Adipisci aliquam asperiores eligendi facere harum incidunt laborum quaerat recusandae tenetur velit.</p>
+                                    <div class="our-team-owl-carousel-item__position">
+                                       Russia, Main Designer</div>
+                                  <div class="our-team-owl-carousel-item__description">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsam iste laborum necessitatibus odio officia quis suscipit temporibus. Adipisci aliquam asperiores eligendi facere harum incidunt laborum quaerat recusandae tenetur velit.
                                     </div>
                                 </div>
-                                <div class="our-team-image"><img src="../assets/img/our-team-carousel-img-1.png" alt=""></div>
+                                <div class="our-team-owl-carousel-item__photo"><img class="our-team-owl-carousel-item__photo-img" src="../assets/img/our-team-carousel-img-1.png" alt=""></div>
                             </div>
+                            
+                            
+                            
                             
 
                             
                             
                         </div>
                     </div>
-                    <div class="item our-team-item-show-all">
-                        <ul class="img-list">
-                <li>
-                    <a href="">
-                        <img src="../assets/img/team-1.png" />
-                        <span class="text-content"><span>Lorem Ipsum</span></span>
+                  <div class="item our-team-carousel__item our-team-carousel__item_show-all">
+                        <ul class="our-team-show-all">
+                <li class="our-team-show-all__item">
+                    <a class="our-team-show-all__link" href="">
+                        <img class="our-team-show-all__img" src="../assets/img/team-1.png" />
+                        <span  class="our-team-show-all__name">Lorem Ipsum</span>
                     </a>
                 </li>
-                <li>
-                    <a href="">
-                        <img src="../assets/img/team-1.png" />
-                        <span class="text-content"><span>Lorem Ipsum</span></span>
+                <li class="our-team-show-all__item">
+                    <a class="our-team-show-all__link" href="">
+                        <img class="our-team-show-all__img" src="../assets/img/team-1.png" />
+                        <span  class="our-team-show-all__name">Lorem Ipsum</span>
                     </a>
                 </li>
-                <li>
-                    <a href="">
-                        <img src="../assets/img/team-1.png" />
-                        <span class="text-content"><span>Lorem Ipsum</span></span>
+                          <li class="our-team-show-all__item">
+                    <a class="our-team-show-all__link" href="">
+                        <img class="our-team-show-all__img" src="../assets/img/team-1.png" />
+                        <span  class="our-team-show-all__name">Lorem Ipsum</span>
                     </a>
                 </li>
-                <li>
-                    <a href="">
-                        <img src="../assets/img/team-1.png" />
-                        <span class="text-content"><span>Lorem Ipsum</span></span>
+                          <li class="our-team-show-all__item">
+                    <a class="our-team-show-all__link" href="">
+                        <img class="our-team-show-all__img" src="../assets/img/team-1.png" />
+                        <span  class="our-team-show-all__name">Lorem Ipsum</span>
                     </a>
                 </li>
-                <li>
-                    <a href="">
-                        <img src="../assets/img/team-1.png" />
-                        <span class="text-content"><span>Lorem Ipsum</span></span>
+                     <li class="our-team-show-all__item">
+                    <a class="our-team-show-all__link" href="">
+                        <img class="our-team-show-all__img" src="../assets/img/team-1.png" />
+                        <span  class="our-team-show-all__name">Lorem Ipsum</span>
                     </a>
                 </li>
-                <li>
-                    <a href="">
-                        <img src="../assets/img/team-1.png" />
-                        <span class="text-content"><span>Lorem Ipsum</span></span>
-                    </a>
-                </li>
+                
+                
+                
 
-                <li>
-                    <a href="">
-                        <img src="../assets/img/team-1.png" />
-                        <span class="text-content"><span>Lorem Ipsum</span></span>
-                    </a>
-                </li>
+                
 
             </ul>
                     </div>
                 </div>
             </div>
-            <div class="show-all-our-team">
-                <a href="#our-team-carousel" data-slide="next">Show all members</a></div>
+            <div class="our-team-toggle">
+                <a class="our-team-toggle__link" href="#our-team-carousel" data-slide="next">Show all members</a></div>
         </div>
-    </div>
-    <div class="slide" id="partners">
-        <div class="inner-section">
-            <div class="section-header">Partners</div>
-            <img class="partners-logo" src="../assets/img/partners-img.png" />
+    </section>
+    <section class="slide fsvs-body-slide partners-slide" id="partners">
+        <div class="fsvs-body-slide__inner partners">
+            <header class="fsvs-body-slide__section-header partners__section-header">Partners</header>
+            <img class="partners__logo-img" src="../assets/img/partners-img.png" />
             <div class="partners-request">
-                <a data-toggle="modal" data-target="#partners-modal">Leave a request for a partnership</a></div>
-            <div class="right-waves"></div>
-
-
-
+                <a class="partners-request__link" data-toggle="modal" data-target="#partners-modal">Leave a request for a partnership</a></div>
+            <div class="partners-aside partners-aside_right">
+                  <img src="/" alt="" class="partners-aside__img partners-aside__img_right">
+                </div>
         </div>
-    </div>
-    <div class="slide" id="advertisement">
-        <div class="inner-section">
-            <div class="section-header">Advertisement</div>
-            <div class="advertisement-embedded"></div>
-            <div class="advertisement-email-request">
-                <a data-toggle="modal" data-target="#advertisement-modal">Send me email notification</a></div>
-            <div class="center-waves"></div>
-
-            <div class="advertisement-dots"></div>
+    </section>
+    <section class="slide fsvs-body-slide advertisement-slide" id="advertisement">
+        <div class="fsvs-body-slide__inner advertisement">
+            <header class="fsvs-body-slide__section-header advertisement__section-header">Advertisement</header>
+            <div class="advertisement-video"></div>
+            <div class="advertisement-email-notify">
+                <a class="advertisement-email-notify__link" data-toggle="modal" data-target="#advertisement-modal">Send me email notification</a></div>
+            <div class="partners-aside partners-aside_right">
+                  <img src="/" alt="" class="partners-aside__img partners-aside__img_right">
+                </div>
         </div>
-    </div>
-    <div class="slide" id="team">
-        <div class="inner-section">
-            <div class="section-header">Team</div>
-            <ul class="img-list">
+    </section>
+    <section class="slide fsvs-body-slide opinion-slide" id="opinion">
+        <div class="fsvs-body-slide__inner opinion">
+            <header class="fsvs-body-slide__section-header opinion__section-header">opinion</header>
+          <div class="opinion-aside opinion-aside_right">
+                  <img src="/" alt="" class="opinion-aside__img opinion-aside__img_right">
+                </div>  
+          <ul class="img-list">
                 <li>
                     <a href="">
-                        <img src="../assets/img/team-1.png" />
+                        <img src="../assets/img/opinion-1.png" />
                         <span class="text-content"><span>Lorem Ipsum</span></span>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="../assets/img/team-1.png" />
+                        <img src="../assets/img/opinion-1.png" />
                         <span class="text-content"><span>Lorem Ipsum</span></span>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="../assets/img/team-1.png" />
+                        <img src="../assets/img/opinion-1.png" />
                         <span class="text-content"><span>Lorem Ipsum</span></span>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="../assets/img/team-1.png" />
+                        <img src="../assets/img/opinion-1.png" />
                         <span class="text-content"><span>Lorem Ipsum</span></span>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="../assets/img/team-1.png" />
+                        <img src="../assets/img/opinion-1.png" />
                         <span class="text-content"><span>Lorem Ipsum</span></span>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="../assets/img/team-1.png" />
+                        <img src="../assets/img/opinion-1.png" />
                         <span class="text-content"><span>Lorem Ipsum</span></span>
                     </a>
                 </li>
 
                 <li>
                     <a href="">
-                        <img src="../assets/img/team-1.png" />
+                        <img src="../assets/img/opinion-1.png" />
                         <span class="text-content"><span>Lorem Ipsum</span></span>
                     </a>
                 </li>
 
             </ul>
-            <div class="left-waves"></div>
-            <div class="team-request">
-                <a data-toggle="modal" data-target="#team-modal">Contact Us</a></div>
+            
+            <div class="opinion-request">
+                <a class="opinion-request__link" data-toggle="modal" data-target="#opinion-modal">Contact Us</a></div>
         </div>
-    </div>
-    <div class="slide" id="location">
-        <div class="inner-section">
-            <div class="location-header">California, Palo Alto</div>
-            <div class="location-address">
+    </section>
+    <section class="slide fsvs-body-slide location-slide" id="location">
+        <div class="fsvs-body-slide__inner location">
+            <header class="location__header">California, Palo Alto</header>
+            <div class="location__address">
                Lorem ipsum dolor sit amet, consectetur adipisicing
             </div>
-            <div class="location-dots"></div>
-
-
-            <div class="location-footer">
-                <div class="social-href">
-                    <ul class="list-inline">
-                        <li><a href="">facebook</a></li>
-                        <li><a href="">linkedin</a></li>
-                        <li><a href="">vk</a></li>
-                    </ul>
-                </div>
-                
+            <div class="location-aside location-aside_right">
+              <img src="/" alt="" class="location-aside__img location-aside__img_right">
             </div>
         </div>
-        <div class="right-waves"></div>
-    </div>
+    </section>
 </div>
-<div class="partners-modal">
-    <div class="modal fade" id="partners-modal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">
+<div class="modal-wrapper modal-wrapper_partners">
+    <div class="modal fade modal_partners" id="partners-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog_partners">
+            <div class="modal-content modal-content_partners">
+                <div class="modal-header modal-header_partners">
+                    <button type="button" class="close modal-header-close modal-header-close_partners" data-dismiss="modal">
                         <span></span>
                         <span></span>
                         <span></span>
                     </button>
                 </div>
-                <div class="modal-body">
-
-                    <form action="" method="post">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Ваше ФИО">
+                <div class="modal-body modal-body_partners">
+                    <form action="" method="post" class="modal-form modal-form_partners">
+                        <div class="input-group modal-form__input-group modal-form__input-group_partners">
+                            <input type="text" class="form-control modal-form__form-control modal-form__form-control_partners" placeholder="You name">
                         </div>
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Ваш @email">
+                        <div class="input-group modal-form__input-group modal-form__input-group_partners">
+                            <input type="text" class="form-control modal-form__form-control modal-form__form-control_partners" placeholder="You email">
                         </div>
-                        <br />
-                        <button type="submit" value="sub" name="sub" class="btn btn-primary">Отправить</button>
+                        <button type="submit" value="sub" name="sub" class="btn btn-primary modal-form__btn modal-form__btn_partners">Send</button>
                     </form>
                 </div>
-
             </div>
         </div>
     </div>
 </div>
-<div class="advertisement-modal">
-    <div class="modal fade" id="advertisement-modal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">
+<div class="modal-wrapper modal-wrapper_advertisement">
+    <div class="modal modal_advertisement fade" id="advertisement-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog_advertisement">
+            <div class="modal-content modal-content_advertisement">
+                <div class="modal-header modal-header_advertisement">
+                    <button type="button" class="close modal-header-close modal-header-close_advertisement" data-dismiss="modal">
                         <span></span>
                         <span></span>
                         <span></span>
                     </button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body modal-body_advertisement">
 
-                    <form action="" method="post">
-
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Ваш @email для напоминания">
+                    <form class="modal-form modal-form_advertisement" action="" method="post">
+                        <div class="input-group modal-form__input-group modal-form__input-group_advertisement">
+                            <input type="text" class="form-control modal-form__form-control modal-form__form-control_advertisement" placeholder="You email for notifications">
                         </div>
-                        <br />
-                        <button type="submit" value="sub" name="sub" class="btn btn-primary">Отправить</button>
+                        <button type="submit" value="sub" name="sub" class="btn btn-primary modal-form__btn modal-form__btn_advertisement">Send</button>
                     </form>
                 </div>
-
             </div>
         </div>
     </div>
 </div>
-<div class="team-modal">
-    <div class="modal fade" id="team-modal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">
+<div class="modal-wrapper modal-wrapper_opinion">
+    <div class="modal modal_opinion fade" id="opinion-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog_opinion">
+            <div class="modal-content modal-content_opinion">
+                <div class="modal-header modal-header_opinion">
+                    <button type="button" class="close modal-header-close modal-header-close_opinion" data-dismiss="modal">
                         <span></span>
                         <span></span>
                         <span></span>
                     </button>
                 </div>
-                <div class="modal-body">
-
-                    <form action="" method="post">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Заголовок сообщения">
+                <div class="modal-body modal-body_opinion">
+                    <form class="modal-form modal-form_opinion" action="" method="post">
+                        <div class="input-group modal-form__input-group modal-form__input-group_opinion">
+                            <input type="text" class="form-control modal-form__form-control modal-form__form-control_opinion" placeholder="Message header">
                         </div>
-                        <div class="input-group">
-                            <textarea type="text" class="form-control" placeholder=". . ."></textarea>
+                        <div class="input-group modal-form__input-group modal-form__input-group_opinion">
+                            <input type="text" class="form-control modal-form__form-control modal-form__form-control_opinion" placeholder=". . ."></textarea>
                         </div>
-                        <br />
-                        <button type="submit" value="sub" name="sub" class="btn btn-primary">Отправить</button>
+                        <button type="submit" value="sub" name="sub" class="btn btn-primary modal-form__btn modal-form__btn_opinion">Send</button>
                     </form>
                 </div>
-
             </div>
         </div>
     </div>
 </div>
-
 <script>
 
 
@@ -458,14 +440,14 @@
       bodyID: 'fsvs-body',
       selector: '> .slide',
       mouseSwipeDisance: 60,
-      afterSlide: function () {},
+      afterSlide: function () {},            
       beforeSlide: function () {
         if ($("#home").hasClass("active-slide") == true) {
-          $(".header-menu nav.mobile-menu").hide({
+          $(".header-menu nav.site-header-mobile-menu").hide({
             duration: 1,
             effect: 'blind',
           });
-          $(".header-menu nav.mobile-menu button span").hide({
+          $(".header-menu nav.site-header-mobile-menu button span").hide({
             duration: 1,
             effect: 'blind',
             direction: "right",
@@ -480,11 +462,11 @@
             duration: 400,
             effect: 'blind'
           });
-          $(".header-menu nav.mobile-menu").show({
+          $(".header-menu nav.site-header-mobile-menu").show({
             duration: 400,
             effect: 'blind'
           });
-          $(".header-menu nav.mobile-menu button span").show({
+          $(".header-menu nav.site-header-mobile-menu button span").show({
             duration: 400,
             effect: 'blind',
             direction: "left",
@@ -512,15 +494,15 @@
         $("#our-team").removeClass("slide");
         $("#partners").removeClass("slide");
         $("#advertisement").removeClass("slide");
-        $("#team").removeClass("slide");
+        $("#opinion").removeClass("slide");
         $("#location").removeClass("slide");
         $(".header-menu .list-inline").hide({
           duration: 0,
         });
-        $(".header-menu nav.mobile-menu").show({
+        $(".header-menu nav.site-header-mobile-menu").show({
           duration: 0,
         });
-        $(".header-menu nav.mobile-menu button span").show({
+        $(".header-menu nav.site-header-mobile-menu button span").show({
           duration: 0,
         });
       } else {
@@ -531,7 +513,7 @@
         $("#our-team").addClass("slide");
         $("#partners").addClass("slide");
         $("#advertisement").addClass("slide");
-        $("#team").addClass("slide");
+        $("#opinion").addClass("slide");
         $("#location").addClass("slide");
       }
     });
@@ -546,17 +528,17 @@
       $("#our-team").removeClass("slide");
       $("#partners").removeClass("slide");
       $("#advertisement").removeClass("slide");
-      $("#team").removeClass("slide");
+      $("#opinion").removeClass("slide");
       $("#location").removeClass("slide");
 
       $(".header-menu .list-inline").hide({
         duration: 0,
 
       });
-      $(".header-menu nav.mobile-menu").show({
+      $(".header-menu nav.site-header-mobile-menu").show({
         duration: 0,
       });
-      $(".header-menu nav.mobile-menu button span").show({
+      $(".header-menu nav.site-header-mobile-menu button span").show({
         duration: 0,
       });
     } else {
@@ -567,26 +549,26 @@
       $("#our-team").addClass("slide");
       $("#partners").addClass("slide");
       $("#advertisement").addClass("slide");
-      $("#team").addClass("slide");
+      $("#opinion").addClass("slide");
       $("#location").addClass("slide");
 
     }
-    $('.header-menu .mobile-menu li a').click(function () {
-      if ($('.header-menu .mobile-menu').hasClass("open") == true) {
-        $('.header-menu .mobile-menu').removeClass('open');
+    $('.header-menu .site-header-mobile-menu li a').click(function () {
+      if ($('.header-menu .site-header-mobile-menu').hasClass("open") == true) {
+        $('.header-menu .site-header-mobile-menu').removeClass('open');
       }
     });
     $(document).mouseup(function (e) {
-      var container = $('.header-menu .mobile-menu ul');
-      if (!container.is(e.target) && container.has(e.target).length === 0 && ($('.header-menu .mobile-menu').has(e.target).length === 0) && ($('.header-menu .mobile-menu').hasClass("open") == true)) {
-        $('.header-menu .mobile-menu').removeClass('open');
+      var container = $('.header-menu .site-header-mobile-menu ul');
+      if (!container.is(e.target) && container.has(e.target).length === 0 && ($('.header-menu .site-header-mobile-menu').has(e.target).length === 0) && ($('.header-menu .site-header-mobile-menu').hasClass("open") == true)) {
+        $('.header-menu .site-header-mobile-menu').removeClass('open');
       }
     });
-    $('.header-menu .mobile-menu button').click(function () {
-      if ($('.header-menu .mobile-menu').hasClass("open") == true) {
-        $('.header-menu .mobile-menu').removeClass('open');
+    $('.header-menu .site-header-mobile-menu button').click(function () {
+      if ($('.header-menu .site-header-mobile-menu').hasClass("open") == true) {
+        $('.header-menu .site-header-mobile-menu').removeClass('open');
       } else {
-        $('.header-menu .mobile-menu').addClass('open');
+        $('.header-menu .site-header-mobile-menu').addClass('open');
       };
     });
     $('#our-team-carousel').carousel({
